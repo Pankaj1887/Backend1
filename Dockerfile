@@ -7,3 +7,4 @@ CMD ["java", "-jar", "/usr/app/sentiment-analysis-web-0.0.2-SNAPSHOT.jar", "--sa
 COPY target/sentiment-analysis-web-0.0.2-SNAPSHOT.jar /usr/app
 # RUN adduser -D basil && chmod 755 /usr/app/sentiment-analysis-web-0.0.2-SNAPSHOT.jar && mkdir /usr/app/uploads && chown -R basil /usr/app/uploads
 # USER basil
+# confirming folder
